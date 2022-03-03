@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.header {
+	height: 100px;
+}
+.header__cont {
+	height: 100px;
+}
+
+.content--outer {
+	min-height: 500px;
+}
+
+/* nav */
+.navbar {
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+/* menu */
+.menu__list > li a {
+	display: block;
+}
+
+
+/* footer */
+.footer {
+	padding: 20px 0;
+	background-color: #ddd;
+}
