@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.mall.common.Command;
 import com.mall.common.MainPage;
 
-// @WebServlet("*.do")
+@WebServlet("*.do")
 public class FrontControll extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     

@@ -5,7 +5,24 @@
 	id="WebApp_ID" version="4.0">
 	<display-name>mall_pre_project</display-name>
 
-	
+	<listener>
+		<listener-class>com.common.TestSessionListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.common.TestRequestListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.common.TestContextListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.common.TestSessionAttributeListener
+		</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>org.apache.tiles.extras.complete.CompleteAutoloadTilesListener
+		</listener-class>
+	</listener>
 
 	<listener>
 		<listener-class>org.apache.tiles.extras.complete.CompleteAutoloadTilesListener
